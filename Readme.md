@@ -9,5 +9,8 @@ Checkout and run:
 bundle install
 touch DevPod/Widget/Widget2.swift
 bundle exec pod install
-xcodebuild clean build  -sdk iphonesimulator -workspace 'DemoCPIncrementalBug.xcworkspace' -scheme 'DemoCPIncrementalBug' | xcpretty
+xcodebuild clean build  \
+   -sdk iphonesimulator \
+   -workspace 'DemoCPIncrementalBug.xcworkspace' \
+   -scheme 'DemoCPIncrementalBug' | xcpretty
 ```
