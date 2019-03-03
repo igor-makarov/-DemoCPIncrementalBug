@@ -13,4 +13,5 @@ xcodebuild clean build  \
    -sdk iphonesimulator \
    -workspace 'DemoCPIncrementalBug.xcworkspace' \
    -scheme 'DemoCPIncrementalBug' | xcpretty
+   
 ```
