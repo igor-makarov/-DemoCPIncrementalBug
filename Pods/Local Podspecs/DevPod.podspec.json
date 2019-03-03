@@ -1,0 +1,54 @@
+{
+  "name": "DevPod",
+  "version": "0.0.1",
+  "summary": "DevPod DevPod BLA",
+  "description": "DevPod Files BLA",
+  "homepage": "NONE",
+  "license": "None",
+  "authors": {
+    "Igor Makarov": "igor.makarov@moovitapp.com"
+  },
+  "source": {
+    "git": "git@codebasehq.com:tranzmate/tranzmate/iphone-v4.git"
+  },
+  "default_subspecs": [
+    "App",
+    "Widget"
+  ],
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  },
+  "subspecs": [
+    {
+      "name": "Common",
+      "source_files": "Common/*.swift"
+    },
+    {
+      "name": "App",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "App/*.swift",
+      "dependencies": {
+        "DevPod/Common": [
+
+        ]
+      }
+    },
+    {
+      "name": "Widget",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "Widget/*.swift",
+      "dependencies": {
+        "DevPod/Common": [
+
+        ]
+      }
+    }
+  ]
+}

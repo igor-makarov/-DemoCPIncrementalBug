@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_BlocksKit_default_Core_DynamicDelegate_MessageUI_UIKit : NSObject
+@end
+@implementation PodsDummy_BlocksKit_default_Core_DynamicDelegate_MessageUI_UIKit
+@end

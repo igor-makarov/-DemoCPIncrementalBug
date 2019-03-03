@@ -1,0 +1,43 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - DevPod/App (0.0.1):
+    - DevPod/Common
+  - DevPod/Common (0.0.1)
+  - DevPod/Widget (0.0.1):
+    - DevPod/Common
+
+DEPENDENCIES:
+  - BlocksKit
+  - BlocksKit/Core
+  - DevPod/App (from `./DevPod/`)
+  - DevPod/Widget (from `./DevPod/`)
+
+SPEC REPOS:
+  https://cdn.jsdelivr.net/cocoa/:
+    - BlocksKit
+
+EXTERNAL SOURCES:
+  DevPod:
+    :path: "./DevPod/"
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  DevPod: 370a45c8fd2e8e3956c5369986cdd189ad9ebc78
+
+PODFILE CHECKSUM: 049de72338b466afea61f5a4f8e87467e28da096
+
+COCOAPODS: 1.7.0.beta.1

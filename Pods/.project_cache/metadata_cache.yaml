@@ -1,0 +1,28 @@
+BlocksKit:
+  LABEL: BlocksKit
+  PROJECT_PATH: "/Users/Igor/DemoCPIncrementalBug/Pods/BlocksKit.xcodeproj"
+  UUID: 1AFD6C6DFBE1397861AE959AB2564518
+BlocksKit-Core:
+  LABEL: BlocksKit-Core
+  PROJECT_PATH: "/Users/Igor/DemoCPIncrementalBug/Pods/BlocksKit.xcodeproj"
+  UUID: F9BAE2E637B019A1FF2589FA6D621EDB
+BlocksKit.default-Core-DynamicDelegate-MessageUI-UIKit:
+  LABEL: BlocksKit.default-Core-DynamicDelegate-MessageUI-UIKit
+  PROJECT_PATH: "/Users/Igor/DemoCPIncrementalBug/Pods/BlocksKit.xcodeproj"
+  UUID: EBE9902B25D977E24949DD7F59E305E4
+DevPod-App-Common:
+  LABEL: DevPod-App-Common
+  PROJECT_PATH: "/Users/Igor/DemoCPIncrementalBug/Pods/DevPod.xcodeproj"
+  UUID: CAA5D4396AE9C4B90C420F82F797AA23
+DevPod-Common-Widget:
+  LABEL: DevPod-Common-Widget
+  PROJECT_PATH: "/Users/Igor/DemoCPIncrementalBug/Pods/DevPod.xcodeproj"
+  UUID: 55EAA91B0BC772FB42110CEFC080470F
+Pods-All-App:
+  LABEL: Pods-All-App
+  PROJECT_PATH: "/Users/Igor/DemoCPIncrementalBug/Pods/Pods.xcodeproj"
+  UUID: 3D5598376556A34563AAE7E2117D6353
+Pods-All-Widget:
+  LABEL: Pods-All-Widget
+  PROJECT_PATH: "/Users/Igor/DemoCPIncrementalBug/Pods/Pods.xcodeproj"
+  UUID: 48A6D1D7349AE3994DC2D3D2250AF977

@@ -1,0 +1,50 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  BlocksKit-Core:
+    BUILD_SETTINGS_CHECKSUM:
+      BlocksKit-Core: ca35759729633bb3bfaa405fdf852f55
+    CHECKSUM: 7f422b971407001178d181a43b99014ea2591fe6
+    SPECS:
+      - BlocksKit/Core (2.2.5)
+  BlocksKit.default-Core-DynamicDelegate-MessageUI-UIKit:
+    BUILD_SETTINGS_CHECKSUM:
+      BlocksKit.default-Core-DynamicDelegate-MessageUI-UIKit: b6a0f1bd795366f041128af6f6393fd2
+    CHECKSUM: 7f422b971407001178d181a43b99014ea2591fe6
+    SPECS:
+      - BlocksKit (2.2.5)
+      - BlocksKit/All (2.2.5)
+      - BlocksKit/Core (2.2.5)
+      - BlocksKit/DynamicDelegate (2.2.5)
+      - BlocksKit/MessageUI (2.2.5)
+      - BlocksKit/UIKit (2.2.5)
+  DevPod-App-Common:
+    BUILD_SETTINGS_CHECKSUM:
+      DevPod-App-Common: bed607bca08fe56a39e079605e52c4ed
+    CHECKSUM: 370a45c8fd2e8e3956c5369986cdd189ad9ebc78
+    FILES:
+      - "/Users/Igor/DemoCPIncrementalBug/DevPod/App/App.swift"
+      - "/Users/Igor/DemoCPIncrementalBug/DevPod/Common/Common.swift"
+    SPECS:
+      - DevPod/App (0.0.1)
+      - DevPod/Common (0.0.1)
+  DevPod-Common-Widget:
+    BUILD_SETTINGS_CHECKSUM:
+      DevPod-Common-Widget: 2467c38a35f697497e692e344de39a10
+    CHECKSUM: 370a45c8fd2e8e3956c5369986cdd189ad9ebc78
+    FILES:
+      - "/Users/Igor/DemoCPIncrementalBug/DevPod/Common/Common.swift"
+      - "/Users/Igor/DemoCPIncrementalBug/DevPod/Widget/Widget.swift"
+    SPECS:
+      - DevPod/Common (0.0.1)
+      - DevPod/Widget (0.0.1)
+  Pods-All-App:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 5c9ecc7f53ee2eb2489ce2545b353707
+      Release: 5c9ecc7f53ee2eb2489ce2545b353707
+  Pods-All-Widget:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 9b6947ac35999138e1c9d608cbe571cd
+      Release: 9b6947ac35999138e1c9d608cbe571cd
+OBJECT_VERSION: 46
